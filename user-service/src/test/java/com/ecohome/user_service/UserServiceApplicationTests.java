@@ -23,7 +23,6 @@ class UserServiceApplicationTests {
 	void contextLoads() {
 	}
 
-    @Disabled
     @Test
     void addUsersToDB() {
         for (int i = 1; i <= NUMBER_OF_USERS; i++) {

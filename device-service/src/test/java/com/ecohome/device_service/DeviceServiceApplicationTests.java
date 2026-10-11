@@ -8,6 +8,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import com.ecohome.device_service.entity.Device;
+import com.ecohome.device_service.model.DeviceType;
+import com.ecohome.device_service.repository.DeviceRepository;
+
 @Slf4j
 @SpringBootTest
 class DeviceServiceApplicationTests {
@@ -21,7 +25,6 @@ class DeviceServiceApplicationTests {
 	void contextLoads() {
 	}
 
-    @Disabled
     @Test
     void createDevices() {
         for (int i = 1; i <= NUMBER_OF_DEVICES; i++) {
