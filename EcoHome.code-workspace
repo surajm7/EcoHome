@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{ "name": "device-service", "path": "device-service" },
+		{ "name": "user-service", "path": "user-service" },
+		{ "name": "ingestion-service", "path": "ingestion-service" },
+		{ "name": "usage-service", "path": "usage-service" },
+		{ "name": "alert-service", "path": "alert-service" }
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"maven.view": "hierarchical"
+	}
+}
